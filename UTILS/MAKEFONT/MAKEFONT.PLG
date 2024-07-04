@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: makefont - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP6150.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../common" /I "../common" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/makefont.pch" /YX"qfont.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\progs\halflife\Sdk\SourceCode\utils\common\cmdlib.c"
+"C:\progs\halflife\Sdk\SourceCode\utils\makefont\makefont.cpp"
+"C:\progs\halflife\Sdk\SourceCode\utils\common\wadlib.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6150.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP6151.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/makefont.pdb" /debug /machine:I386 /out:"Debug/makefont.exe" /pdbtype:sept 
+.\Debug\cmdlib.obj
+.\Debug\makefont.obj
+.\Debug\wadlib.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP6151.TMP"
+<h3>Output Window</h3>
+Compiling...
+cmdlib.c
+makefont.cpp
+wadlib.c
+c:\progs\halflife\sdk\sourcecode\utils\common\wadlib.c(82) : warning C4018: '<' : signed/unsigned mismatch
+c:\progs\halflife\sdk\sourcecode\utils\common\wadlib.c(212) : warning C4018: '>=' : signed/unsigned mismatch
+Linking...
+Creating temporary file "C:\WINDOWS\TEMP\RSP61A2.BAT" with contents
+[
+@echo off
+xcopy .\Debug\makefont.exe ..\..\..\valve /r /i
+]
+Creating command line "C:\WINDOWS\TEMP\RSP61A2.BAT"
+Copyint  to  valve\
+makefont.exe
+Er zijn         1 bestand(en) gekopieerd.
+
+
+
+<h3>Results</h3>
+makefont.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
