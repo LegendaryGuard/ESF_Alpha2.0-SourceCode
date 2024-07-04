@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mdlviewer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP7203.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\common" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/mdlviewer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\progs\halflife\SDK\SourceCode\utils\common\mathlib.c"
+"C:\progs\halflife\SDK\SourceCode\utils\mdlviewer\mdlviewer.cpp"
+"C:\progs\halflife\SDK\SourceCode\utils\mdlviewer\studio_render.cpp"
+"C:\progs\halflife\SDK\SourceCode\utils\mdlviewer\studio_utils.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7203.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7204.TMP" with contents
+[
+glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glut32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mdlviewer.pdb" /debug /machine:I386 /out:"Debug/mdlviewer.exe" /pdbtype:sept 
+.\Debug\mathlib.obj
+.\Debug\mdlviewer.obj
+.\Debug\studio_render.obj
+.\Debug\studio_utils.obj
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP7204.TMP"
+<h3>Output Window</h3>
+Compiling...
+mathlib.c
+mdlviewer.cpp
+c:\progs\halflife\sdk\sourcecode\engine\studio.h(204) : fatal error C1083: Cannot open include file: 'studio_event.h': No such file or directory
+studio_render.cpp
+c:\progs\halflife\sdk\sourcecode\engine\studio.h(204) : fatal error C1083: Cannot open include file: 'studio_event.h': No such file or directory
+studio_utils.cpp
+c:\progs\halflife\sdk\sourcecode\engine\studio.h(204) : fatal error C1083: Cannot open include file: 'studio_event.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+mdlviewer.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
